@@ -3,5 +3,5 @@
 - The daily builds are based on the lastest master. That means any feature or bugfix merged to master can be tested.
 - The Windows compilation is done with the cmake option --config Debug - which should give you a better stack trace when an crash happens.
 - _Before you install it, make sure to have a backup of your current settings._ Going back to the older version is likely to not work after you tried the new one.
-- Keep in mind that this is a testing version: it could eat your data! :finnadie:
-- Please let us know about bugs you find in the issue tracker. [Convenient link.](https://github.com/nextcloud/desktop/issues/new)
+- Keep in mind that this is a testing version: it could eat your data! :boom: 
+- Please let us know about bugs you find in the [issue tracker](https://github.com/nextcloud/desktop/issues/new).
