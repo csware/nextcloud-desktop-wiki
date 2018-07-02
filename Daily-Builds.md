@@ -1,4 +1,7 @@
-- You can find the daily builds at https://download.nextcloud.com/desktop/daily
-- The daily builds are based on the lastest master.
-- The Windows compilation is done with the cmake option --config Debug  - which should give you a better stack trace when an crash happens.
-- _Before you install it, make sure to have a backup of your current settings._
+- Daily builds allow you to test Nextcloud Client improvements, bugfixes and so on.
+- You can find the daily builds on [in the desktop/daily folder our download server](https://download.nextcloud.com/desktop/daily)
+- The daily builds are based on the lastest master. That means any feature or bugfix merged to master can be tested.
+- The Windows compilation is done with the cmake option --config Debug - which should give you a better stack trace when an crash happens.
+- _Before you install it, make sure to have a backup of your current settings._ Going back to the older version is likely to not work after you tried the new one.
+- Keep in mind that this is a testing version: it could eat your data! :finnadie:
+- Please let us know about bugs you find in the issue tracker. [Convenient link.](https://github.com/nextcloud/desktop/issues/new)
