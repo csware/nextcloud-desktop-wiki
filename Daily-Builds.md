@@ -1,0 +1,4 @@
+- You can find the daily builds at https://download.nextcloud.com/desktop/daily
+- The daily builds are based on the lastest master.
+- The Windows compilation is done with the cmake option --config Debug  - which should give you a better stack trace when an crash happens.
+- _Before you install it, make sure to have a backup of your current settings._
