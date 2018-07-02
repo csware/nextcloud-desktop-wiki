@@ -1,7 +1,7 @@
 # Requirements
 
 ## General
-- OpenSSL 1.1.x (Windows )
+- OpenSSL 1.1.x
 - QtKeychain
 - Qt 5.x.x
 - zlib
