@@ -8,7 +8,7 @@
 
 :hammer: [System requirements for compiling the desktop client](https://github.com/nextcloud/desktop/wiki/System-requirements-for-compiling-the-desktop-client)
 
-:wrench: [How to compile the desktop client](https://github.com/nextcloud/desktop/wiki/How-to-compile-the-desktop-client)
+:wrench: [How to compile the desktop client on Linux, Mac and Windows](https://github.com/nextcloud/desktop/wiki/How-to-compile-the-desktop-client)
 
 :building_construction: [How to run the desktop client on Visual Studio Community 2017 15.7.5](https://github.com/nextcloud/desktop/wiki/How-to-run-the-desktop-client-on-Visual-Studio)
 
