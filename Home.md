@@ -1,4 +1,4 @@
-# :books: Welcome to the desktop client wiki!
+## :books: Welcome to the desktop client wiki!
 
 - Don't forget the read the :memo: [README](https://github.com/nextcloud/desktop/blob/master/README.md) of the project  :desktop_computer: first !
 
