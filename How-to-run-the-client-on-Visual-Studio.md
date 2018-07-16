@@ -1,4 +1,4 @@
-## Step by step instructions
+## Step by step instructions for Visual Studio Community 2017 15.7.5
 
 - Click with the right button on the desktop folder and pick to open on Visual Studio:
 
