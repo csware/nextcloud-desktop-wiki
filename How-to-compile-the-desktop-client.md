@@ -43,8 +43,16 @@ $ cmake --build . --config Debug --target install
 
 ### 3.3 Mac OS
 
-#### 3.1.1 Generate the build files:
+#### 3.1.1 Enable git submodules:
 ```
+$ cd desktop
+$ git submodule init
+$ git submodule update
+```
+
+#### 3.1.2 Generate the build files:
+```
+$ cd build
 $ cmake .. -DCMAKE_INSTALL_PREFIX=path-to-install-folder/ -DCMAKE_BUILD_TYPE=Debug -DNO_SHIBBOLETH=1
 ```
 
