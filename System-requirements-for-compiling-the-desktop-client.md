@@ -15,6 +15,10 @@
 
 ## mac OS
 - XCode...
+- brew
+- OpenSSL 1.1.x (brew install openssl@1.1)
+- QtKeychain (brew install qtkeychain)
+- Qt 5.x.x
 
 
 
