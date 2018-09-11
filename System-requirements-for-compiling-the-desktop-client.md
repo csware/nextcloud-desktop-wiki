@@ -12,6 +12,7 @@
 - zlib binaries: https://github.com/maxirmx/Dist_zlib
 - Visual Studio 
 - Recommended: Git bash (it comes with Git)
+- Png2Icon - you need to use this version: https://github.com/hiiamok/png2ImageMagickICO
 
 ## Linux 
 On Ubuntu 18.04 (sames in 16.04) without the optional dependencies:
