@@ -31,6 +31,12 @@ Install via terminal using this command:
 sudo apt install libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev doxygen
 ```
 
+For Nautilus integration:
+```
+sudo apt install python-nautilus
+wget  -O ~/.local/share/nautilus-python/extensions/syncstate-Nextcloud.py "https://raw.githubusercontent.com/nextcloud/desktop/master/shell_integration/nautilus/syncstate.py"
+```
+
 If you need Dolphin integration:
 - libkf5config-dev
 - kio-dev extra-cmake-modules
