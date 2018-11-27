@@ -24,10 +24,11 @@ On Ubuntu 18.04 (sames in 16.04) without the optional dependencies:
 - sqlite3
 - libsqlite3-dev
 - libqt5svg5-dev
+- doxygen
 
 Install via terminal using this command:
 ```
-sudo apt install libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev
+sudo apt install libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev doxygen
 ```
 
 If you need Dolphin integration:
