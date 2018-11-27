@@ -34,7 +34,7 @@ sudo apt install libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev 
 For Nautilus integration:
 ```
 sudo apt install python-nautilus
-wget  -O ~/.local/share/nautilus-python/extensions/syncstate-Nextcloud.py "https://raw.githubusercontent.com/nextcloud/desktop/master/shell_integration/nautilus/syncstate.py"
+wget -O ~/.local/share/nautilus-python/extensions/syncstate-Nextcloud.py "https://raw.githubusercontent.com/nextcloud/desktop/master/shell_integration/nautilus/syncstate.py"
 ```
 
 If you need Dolphin integration:
