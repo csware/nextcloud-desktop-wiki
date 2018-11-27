@@ -18,7 +18,7 @@
 On Ubuntu 18.04 (sames in 16.04) without the optional dependencies:
 - libzip-dev
 - qtdeclarative5-dev
-- libqt5webkit5-dev
+- qtwebengine5-dev
 - qt5keychain-dev
 - sqlite3
 - libsqlite3-dev
@@ -26,7 +26,7 @@ On Ubuntu 18.04 (sames in 16.04) without the optional dependencies:
 
 Install via terminal using this command:
 ```
-sudo apt install libzip-dev qtdeclarative5-dev libqt5webkit5-dev qt5keychain-dev sqlite3 libsqlite3-dev libqt5svg5-dev
+sudo apt install libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev sqlite3 libsqlite3-dev libqt5svg5-dev
 ```
 
 If you need Dolphin integration:
