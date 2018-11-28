@@ -15,23 +15,9 @@
 - Png2Icon - you need to use this version: https://github.com/hiiamok/png2ImageMagickICO
 
 ## Linux 
-On Ubuntu 18.04 (same in 16.04):
-- openssl
-- libssl-dev
-- libzip-dev
-- qtdeclarative5-dev
-- qtwebengine5-dev
-- qt5keychain-dev
-- qttools5-dev
-- sqlite3
-- libsqlite3-dev
-- libqt5svg5-dev
-- libkf5kjs-dev (optional)
-- doxygen (optional)
-
-Install via terminal using this command:
+On Ubuntu 18.04 (same in 16.04), install via terminal using this command:
 ```
-sudo apt install openssl libssl-dev libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev
+sudo apt install qt5-default openssl libssl-dev libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev zlib1g-dev
 ```
 And if you want to add the optional dependencies too:
 ```
