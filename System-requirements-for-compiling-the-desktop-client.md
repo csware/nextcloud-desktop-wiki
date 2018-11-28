@@ -15,7 +15,9 @@
 - Png2Icon - you need to use this version: https://github.com/hiiamok/png2ImageMagickICO
 
 ## Linux 
-On Ubuntu 18.04 (sames in 16.04) without the optional dependencies:
+On Ubuntu 18.04 (same in 16.04):
+- openssl
+- libssl-dev
 - libzip-dev
 - qtdeclarative5-dev
 - qtwebengine5-dev
@@ -24,11 +26,16 @@ On Ubuntu 18.04 (sames in 16.04) without the optional dependencies:
 - sqlite3
 - libsqlite3-dev
 - libqt5svg5-dev
-- doxygen
+- libkf5kjs-dev (optional)
+- doxygen (optional)
 
 Install via terminal using this command:
 ```
-sudo apt install libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev doxygen
+sudo apt install openssl libssl-dev libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev
+```
+And if you want to add the optional dependencies too:
+```
+sudo apt install libkf5kjs-dev doxygen
 ```
 
 For Nautilus integration:
