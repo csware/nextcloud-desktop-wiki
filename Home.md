@@ -13,6 +13,14 @@
 
 ## Download 
 
-#### :new: [Latest Release:](https://download.nextcloud.com/desktop/releases) :penguin: [Linux](https://download.nextcloud.com/desktop/releases/Linux/Nextcloud-2.5.1-x86_64.AppImage) :apple: [Mac OS](https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-2.5.1.20181204.pkg) :door: [Windows](https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.5.1-setup.exe) 
+:new: [Latest Release:](https://download.nextcloud.com/desktop/releases) :penguin: [Linux](https://download.nextcloud.com/desktop/releases/Linux/Nextcloud-2.5.1-x86_64.AppImage) :apple: [Mac OS](https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-2.5.1.20181204.pkg) :door: [Windows](https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.5.1-setup.exe) 
 
-#### :high_brightness: [Daily Builds](https://github.com/nextcloud/desktop/wiki/Daily-Builds)
+:high_brightness: [Daily Builds](https://github.com/nextcloud/desktop/wiki/Daily-Builds)
+
+## Changelog
+
+:memo: [2.5 series changelog](https://github.com/nextcloud/desktop/wiki/2.5-series-changelog) <br>
+
+## Roadmap
+
+:crystal_ball: [Roadmap](https://github.com/nextcloud/desktop/wiki/Desktop-Client-Roadmap) <br>
