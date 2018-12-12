@@ -1,2 +1,3 @@
-:crystal_ball: [Desktop Client Roadmap](https://github.com/nextcloud/desktop/wiki/Desktop-Client-Roadmap) <br>
+## :star: Desktop client past and future 
+:crystal_ball: [Roadmap](https://github.com/nextcloud/desktop/wiki/Desktop-Client-Roadmap) <br>
 :memo: [2.5 series changelog](https://github.com/nextcloud/desktop/wiki/2.5-series-changelog) <br>
