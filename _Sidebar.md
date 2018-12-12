@@ -1,4 +1,2 @@
-# Releases
-* [Download Releases](https://download.nextcloud.com/desktop/releases)
-* [Releases changelog](https://github.com/nextcloud/desktop/wiki/Releases-2.5-series-changelog)
-* [Roadmap](https://github.com/nextcloud/desktop/wiki/Desktop-Client-Roadmap)
+:crystal_ball: [Desktop Client Roadmap](https://github.com/nextcloud/desktop/wiki/Desktop-Client-Roadmap) <br>
+:memo: [2.5 series changelog](https://github.com/nextcloud/desktop/wiki/2.5-series-changelog) <br>
