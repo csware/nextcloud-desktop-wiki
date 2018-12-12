@@ -1,4 +1,5 @@
-### Desktop Client past & future :fast_forward:
+**:fast_forward: Desktop Client past & future**<br>
+<br>
 :memo: [2.5 series changelog](https://github.com/nextcloud/desktop/wiki/2.5-series-changelog) <br>
 <br>
 :crystal_ball: [Roadmap](https://github.com/nextcloud/desktop/wiki/Desktop-Client-Roadmap) <br>
