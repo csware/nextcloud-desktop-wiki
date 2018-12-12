@@ -23,4 +23,4 @@
 
 ## Notes 
 
-**Downstreaming:** Only interesting stuff that matches the road map and big bug fixes. Discuss in the team before creating PR's and merging.
+- **Downstreaming:** Only interesting stuff that matches the road map and big bug fixes. Discuss in the team before creating PR's and merging.
