@@ -20,6 +20,7 @@ Tip: If you already have the desktop client installed from another source (snap 
 
 #### 3.1.1 Generate the build files:
 ```
+$ cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=path-to-install-folder/ -DCMAKE_BUILD_TYPE=Debug -DNO_SHIBBOLETH=1 -DQTKEYCHAIN_LIBRARY=/path-to-qt5keychain-folder/lib64/libqt5keychain.so -DQTKEYCHAIN_INCLUDE_DIR=/path-to-qt5keychain-folder/include/qt5keychain/ -DOPENSSL_ROOT_DIR=/path-to-openssl-folder/ -DOPENSSL_INCLUDE_DIR=path-to-openssl-folder/include -DOPENSSL_LIBRARIES=path-to-openssl-folder/lib
 ```
 
