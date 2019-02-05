@@ -13,7 +13,9 @@
 
 ## Download 
 
-:new: 2.5.1: :penguin: [Linux](https://download.nextcloud.com/desktop/releases/Linux/Nextcloud-2.5.1-x86_64.AppImage) :apple: [Mac OS](https://download.nextcloud.com/desktop/releases/Mac/Installer/Nextcloud-2.5.1.20181204.pkg) :door: [Windows](https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.5.1-setup.exe) 
+:new: [Virtual Drive tech preview for Windows](https://github.com/nextcloud/desktop/wiki/Virtual-Drive-series)
+
+:incoming_envelope: 2.5.2 RC1: :penguin: [Linux](https://download.nextcloud.com/desktop/prereleases/Linux/Nextcloud-2.5.2.20190205-rc1-x86_64.AppImage) :apple: [Mac OS](https://download.nextcloud.com/desktop/prereleases/Mac/Nextcloud-qt5.9.2-2.5.2.20190205rc1.pkg) :door: [Windows](https://download.nextcloud.com/desktop/prereleases/Windows/Nextcloud-2.5.2.5117-rc1-20190205.exe)
 
 :high_brightness: [Daily Builds](https://github.com/nextcloud/desktop/wiki/Daily-Builds)
 
