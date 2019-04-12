@@ -20,8 +20,6 @@
 :high_brightness: [Daily Builds](https://github.com/nextcloud/desktop/wiki/Daily-Builds)
 
 
-## Past & Future
+## Future
 
-:memo: [2.5 series changelog](https://github.com/nextcloud/desktop/releases) <br>
-<br>
 :crystal_ball: [Roadmap](https://github.com/nextcloud/desktop/wiki/Desktop-Client-Roadmap) <br>
