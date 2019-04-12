@@ -15,13 +15,13 @@
 
 :new: [Virtual Drive tech preview for Windows](https://github.com/nextcloud/desktop/wiki/Virtual-Drive-series)
 
-:incoming_envelope: 2.5.2 RC1: :penguin: [Linux](https://download.nextcloud.com/desktop/prereleases/Linux/Nextcloud-2.5.2.20190205-rc1-x86_64.AppImage) :apple: [Mac OS](https://download.nextcloud.com/desktop/prereleases/Mac/Nextcloud-qt5.9.2-2.5.2.20190205rc1.pkg) :door: [Windows](https://download.nextcloud.com/desktop/prereleases/Windows/Nextcloud-2.5.2.5117-rc1-20190205.exe)
+:incoming_envelope: [Latest release](https://github.com/nextcloud/desktop/releases)
 
 :high_brightness: [Daily Builds](https://github.com/nextcloud/desktop/wiki/Daily-Builds)
 
 
 ## Past & Future
 
-:memo: [2.5 series changelog](https://github.com/nextcloud/desktop/wiki/2.5-series-changelog) <br>
+:memo: [2.5 series changelog](https://github.com/nextcloud/desktop/releases) <br>
 <br>
 :crystal_ball: [Roadmap](https://github.com/nextcloud/desktop/wiki/Desktop-Client-Roadmap) <br>
