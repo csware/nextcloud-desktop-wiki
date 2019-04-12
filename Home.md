@@ -13,7 +13,7 @@
 
 ## Download 
 
-:new: [Virtual Drive tech preview for Windows](https://github.com/nextcloud/desktop/wiki/Virtual-Drive-series)
+:new: [Virtual Drive tech preview for Windows](https://github.com/nextcloud/desktop/releases/tag/techpreview-v1)
 
 :incoming_envelope: [Latest release](https://github.com/nextcloud/desktop/releases)
 
