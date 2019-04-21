@@ -13,7 +13,7 @@ $ mkdir build
 
 ### 3. Compile and install 
 
-:information_source: _Optional - you may or may not get errors if you don't define those cmake flags:_
+:information_source: _Optional - you may gget errors if you don't define those cmake flags:_
 
 * ```-DCMAKE_BUILD_TYPE=$TYPE```
 * ```-DQTKEYCHAIN_LIBRARY=$PATH/lib/$LIBFILE```
@@ -26,7 +26,7 @@ $ mkdir build
 * _Replace ```$TYPE``` by ```Release``` or ```Debug```._
 * _If you pick ```Debug``` you may also want to enable the build of the tests by setting the flag ```-DBUILD_TESTING=1```._
 
-:information_source: _If you already have the desktop client installed from another source (snap etc) in your system, make sure the compiled version is installed in a different path. Mixing up libs/dll's of different version can lead to undefined behavior and crashes._
+:information_source: _For development reasons it is better to install the client on user space instead on the global system. Mixing up libs/dll's of different version can lead to undefined behavior and crashes. For example you could use in the cmake command ```$PATH``` as ```~/.local/``` in a Linux system. If you want to install system wide you could use ```/usr/local``` or ```/opt/nextcloud/```._
 
 
 ## :penguin: Linux
@@ -34,7 +34,7 @@ $ mkdir build
 ### Generate the build files:
 ```
 $ cd build
-$ cmake .. -DCMAKE_INSTALL_PREFIX=~/desktop-install/ -DCMAKE_BUILD_TYPE=$TYPE -DNO_SHIBBOLETH=1
+$ cmake .. -DCMAKE_INSTALL_PREFIX=$PATH -DCMAKE_BUILD_TYPE=$TYPE -DNO_SHIBBOLETH=1
 ```
 
 ### Compile and install:
