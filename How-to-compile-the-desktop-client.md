@@ -13,20 +13,21 @@ $ mkdir build
 
 ### 3. Compile and install 
 
-:information_source: **Optional** - you may gget errors if you don't define those cmake flags:
+:information_source: **Optional** - depending on how you have your dev environment set up, you might need to define those paths as cmake flags or as environment variables:
+* ```QTKEYCHAIN_LIBRARY```
+* ```QTKEYCHAIN_INCLUDE_DIR```
+* ```OPENSSL_ROOT_DIR```
+* ```OPENSSL_INCLUDE_DIR```
 
-* ```-DCMAKE_BUILD_TYPE=$TYPE```
-* ```-DQTKEYCHAIN_LIBRARY=$PATH/lib/$LIBFILE```
-* ```-DQTKEYCHAIN_INCLUDE_DIR=$PATH/include/qt5keychain/```
-* ```-DOPENSSL_ROOT_DIR=$PATH/```
-* ```-DOPENSSL_INCLUDE_DIR=$PATH/include -DOPENSSL_LIBRARIES=$PATH/lib```
+:information_source: You can enable the build of the tests by setting the cmake flag ```BUILD_TESTING``` to ```1```.
 
-:warning: **Do not forget**:
-* Replace ```$PATH``` and ```$LIBFILE``` by the correct path in your system.
-* Replace ```$TYPE``` by ```Release``` or ```Debug```.
-* If you pick ```Debug``` you may also want to enable the build of the tests by set the cmake flag ```DBUILD_TESTING=1```.
+:information_source: The cmake flag ```CMAKE_BUILD_TYPE``` has ```Debug``` and ```Release``` as options.
 
-:information_source: For development reasons it is better to **install the client on user space** instead on the global system. Mixing up libs/dll's of different version can lead to undefined behavior and crashes. For example you could use in the cmake command ```$PATH``` as ```~/.local/``` in a Linux system. If you want to install system wide you could use ```/usr/local``` or ```/opt/nextcloud/```.
+:warning: For development reasons it is better to **install the client on user space** instead on the global system. Mixing up libs/dll's of different version can lead to undefined behavior and crashes:
+
+* You could use the **cmake flag** ```CMAKE_INSTALL_PREFIX``` as ```~/.local/``` in a **Linux** system. If you want to install system wide you could use ```/usr/local``` or ```/opt/nextcloud/```. 
+
+* On **Windows 10** [```$USERPROFILE```](https://docs.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environment-variables#a-href-idbkmk-2avariables-that-are-recognized-only-in-the-user-context) refers to ```C:\Users\<USERNAME>```.
 
 
 ## :penguin: Linux
@@ -34,7 +35,7 @@ $ mkdir build
 ### Generate the build files:
 ```
 $ cd build
-$ cmake .. -DCMAKE_INSTALL_PREFIX=$PATH -DCMAKE_BUILD_TYPE=$TYPE -DNO_SHIBBOLETH=1
+$ cmake .. -DCMAKE_INSTALL_PREFIX=~/nextcloud-desktop-client -DCMAKE_BUILD_TYPE=Debug -DNO_SHIBBOLETH=1
 ```
 
 ### Compile and install:
@@ -48,7 +49,7 @@ $ make install
 #### 3.2.1 Generate the build files:
 
 ```
-$ cmake "-GVisual Studio 15 2017 Win64" .. -DCMAKE_INSTALL_PREFIX=$PATH -DCMAKE_BUILD_TYPE=$TYPE -DNO_SHIBBOLETH=1 
+$ cmake "-GVisual Studio 15 2017 Win64" .. -DCMAKE_INSTALL_PREFIX=$USERPROFILE\nextcloud-desktop-client -DCMAKE_BUILD_TYPE=Debug -DNO_SHIBBOLETH=1 
 ```
 
 #### 3.2.2 Compile and install:
@@ -69,7 +70,7 @@ $ git submodule update
 ### Generate the build files:
 ```
 $ cd build
-$ cmake .. -DCMAKE_INSTALL_PREFIX=$PATH -DCMAKE_BUILD_TYPE=$TYPE -DNO_SHIBBOLETH=1 
+$ cmake .. -DCMAKE_INSTALL_PREFIX=~/nextcloud-desktop-client -DCMAKE_BUILD_TYPE=Debug -DNO_SHIBBOLETH=1 
 ```
 
 ### Compile and install:
