@@ -13,7 +13,7 @@ $ mkdir build
 
 ### 3. Compile and install 
 
-:information_source: _Optional - you may gget errors if you don't define those cmake flags:_
+:information_source: **Optional** - you may gget errors if you don't define those cmake flags:
 
 * ```-DCMAKE_BUILD_TYPE=$TYPE```
 * ```-DQTKEYCHAIN_LIBRARY=$PATH/lib/$LIBFILE```
@@ -21,12 +21,12 @@ $ mkdir build
 * ```-DOPENSSL_ROOT_DIR=$PATH/```
 * ```-DOPENSSL_INCLUDE_DIR=$PATH/include -DOPENSSL_LIBRARIES=$PATH/lib```
 
-:warning: _Do not forget:_
-* _Replace ```$PATH``` and ```$LIBFILE``` by the correct path in your system._
-* _Replace ```$TYPE``` by ```Release``` or ```Debug```._
-* _If you pick ```Debug``` you may also want to enable the build of the tests by setting the flag ```-DBUILD_TESTING=1```._
+:warning: **Do not forget**:
+* Replace ```$PATH``` and ```$LIBFILE``` by the correct path in your system.
+* Replace ```$TYPE``` by ```Release``` or ```Debug```.
+* If you pick ```Debug``` you may also want to enable the build of the tests by set the cmake flag ```DBUILD_TESTING=1```.
 
-:information_source: _For development reasons it is better to install the client on user space instead on the global system. Mixing up libs/dll's of different version can lead to undefined behavior and crashes. For example you could use in the cmake command ```$PATH``` as ```~/.local/``` in a Linux system. If you want to install system wide you could use ```/usr/local``` or ```/opt/nextcloud/```._
+:information_source: For development reasons it is better to **install the client on user space** instead on the global system. Mixing up libs/dll's of different version can lead to undefined behavior and crashes. For example you could use in the cmake command ```$PATH``` as ```~/.local/``` in a Linux system. If you want to install system wide you could use ```/usr/local``` or ```/opt/nextcloud/```.
 
 
 ## :penguin: Linux
