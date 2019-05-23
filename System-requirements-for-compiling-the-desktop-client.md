@@ -17,7 +17,7 @@
 ## Linux 
 On Ubuntu 18.04 (same in 16.04), install via terminal using this command:
 ```
-sudo apt install qt5-default openssl libssl-dev libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev zlib1g-dev
+sudo apt install build-essential cmake qt5-default openssl libssl-dev libzip-dev qtdeclarative5-dev qtwebengine5-dev qt5keychain-dev qttools5-dev sqlite3 libsqlite3-dev libqt5svg5-dev zlib1g-dev
 ```
 And if you want to add the optional dependencies too:
 ```
